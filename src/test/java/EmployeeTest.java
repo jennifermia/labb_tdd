@@ -17,7 +17,7 @@ public class EmployeeTest {
 
     @Test public void test_Employee_SetFirstName(){
         testObject = new Employee();
-        String actual = testObject.setFirstName();
+        testObject.setFirstName();
 
     }
 
