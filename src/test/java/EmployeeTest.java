@@ -19,7 +19,7 @@ public class EmployeeTest {
     }
 
     @Test
-    public void test_Employee_NameAndSalary_Constructor(){
+    public void test_Employee_NameAndAge_Constructor(){
         String firstName = "Jennifer";
         String lastName = "Toivanen";
         int age = 26;
