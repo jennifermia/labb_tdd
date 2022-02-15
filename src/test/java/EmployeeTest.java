@@ -34,7 +34,7 @@ public class EmployeeTest {
         testObject = new Employee("Jenny", "Mitteli", 28, 30000);
         assertEquals("Jenny", testObject.getFirstName());
         assertEquals("Mitteli", testObject.getLastName());
-        assertEquals(26, testObject.getAge());
+        assertEquals(28, testObject.getAge());
         assertEquals(30000, testObject.getSalary());
     }
 
