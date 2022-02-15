@@ -20,7 +20,10 @@ public class EmployeeTest {
 
     @Test
     public void test_Employee_NameAndSalary_Constructor(){
-
+        String firstName = "Jennifer";
+        String lastName = "Toivanen";
+        int age = 26;
+        testObject = new Employee(firstName, lastName, age);
     }
 
     @Test
