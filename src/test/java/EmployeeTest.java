@@ -24,6 +24,9 @@ public class EmployeeTest {
         String lastName = "Toivanen";
         int age = 26;
         testObject = new Employee(firstName, lastName, age);
+        assertEquals("Jennifer", testObject.getFirstName());
+        assertEquals("Toivanen", testObject.getLastName());
+        assertEquals(26, testObject.getAge());
     }
 
     @Test
