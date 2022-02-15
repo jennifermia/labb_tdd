@@ -10,7 +10,7 @@ public class EmployeeTest {
     @Test
     public void EmployeeConstructor(){
         new Employee();
-       testObject.getFirstName();
+       String actual = testObject.getFirstName();
 
 
 
