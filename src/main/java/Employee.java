@@ -48,4 +48,8 @@ public class Employee {
     public int getAge() {
         return age;
     }
+
+    public double getSalary() {
+        return 0;
+    }
 }
