@@ -23,10 +23,12 @@ public class EmployeeTest {
         assertEquals(expected, actual);
     }
 
-    @Test public void test_Employee_SetLastName(){
+    @Test public void test_Employee_SetAndGetLastName(){
         testObject = new Employee();
         testObject.setLastName("Toivanen");
         String actual = testObject.getLastName();
+        String expected = "Toivanen";
+        assertEquals(expected, actual);
 
     }
 
