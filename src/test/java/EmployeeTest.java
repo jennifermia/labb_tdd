@@ -8,7 +8,8 @@ public class EmployeeTest {
 
     @Test
     public void EmployeeConstructor(){
-
+        new Employee();
+        assertEquals(null, testObject.getFirstName());
 
 
 
