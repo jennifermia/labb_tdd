@@ -15,7 +15,8 @@ public class EmployeeTest {
        assertNull(actual);
     }
 
-    @Test public void test_Employee_SetFirstName(){
+    @Test
+    public void test_Employee_SetFirstName(){
         testObject = new Employee();
         testObject.setFirstName("Jennifer");
         String actual = testObject.getFirstName();
@@ -23,7 +24,8 @@ public class EmployeeTest {
         assertEquals(expected, actual);
     }
 
-    @Test public void test_Employee_SetAndGetLastName(){
+    @Test
+    public void test_Employee_SetAndGetLastName(){
         testObject = new Employee();
         testObject.setLastName("Toivanen");
         String actual = testObject.getLastName();
@@ -31,6 +33,9 @@ public class EmployeeTest {
         assertEquals(expected, actual);
 
     }
+
+
+    @Test
 
 
 
