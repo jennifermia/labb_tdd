@@ -2,6 +2,7 @@ public class Employee {
 
     private String firstName;
     private String lastName;
+    private int age;
 
     public Employee() {
 
@@ -13,7 +14,9 @@ public class Employee {
     }
 
     public Employee(String firstName, String lastName, int age) {
-
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
     }
 
 
