@@ -23,6 +23,12 @@ public class EmployeeTest {
         assertEquals(expected, actual);
     }
 
+    @Test public void test_Employee_SetLastName(){
+        testObject = new Employee();
+        testObject.setLastName();
+
+    }
+
 
 
 }
