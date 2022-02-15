@@ -17,7 +17,8 @@ public class EmployeeTest {
 
     @Test public void test_Employee_SetFirstName(){
         testObject = new Employee();
-        testObject.setFirstName();
+        testObject.setFirstName("Jennifer");
+
 
     }
 
