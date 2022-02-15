@@ -7,6 +7,15 @@ public class EmployeeTest {
     Employee testObject;
 
 
+    @Test
+    public void test_Employee_Constructor(){
+        String firstName = "Jennifer";
+        String lastName = "Toivanen";
+        int age = 26;
+        int companyID = 0;
+        double salary = 0;
+        testObject = new Employee(firstName, lastName);
+    }
 
     @Test
     public void test_Employee_GetFirstName(){
@@ -35,15 +44,7 @@ public class EmployeeTest {
     }
 
 
-    @Test
-    public void test_Employee_Constructor(){
-        String firstName = "Jennifer";
-        String lastName = "Toivanen";
-        int age = 26;
-        int companyID = 0;
-        double salary = 0;
-        testObject = new Employee(firstName, lastName);
-    }
+
 
 
 
