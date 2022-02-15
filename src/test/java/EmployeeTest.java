@@ -18,6 +18,10 @@ public class EmployeeTest {
     @Test public void test_Employee_SetFirstName(){
         testObject = new Employee();
         testObject.setFirstName("Jennifer");
+        String actual = testObject.getFirstName();
+        String expected = "Jennifer";
+        assertEquals(expected, actual);
+
 
 
     }
