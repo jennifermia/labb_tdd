@@ -6,6 +6,12 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EmployeeTest {
     Employee testObject;
 
+    @Test
+    public void test_Employee_NoArg_Constructor(){
+        testObject = new Employee();
+    }
+
+
 
     @Test
     public void test_Employee_Name_Constructor(){
