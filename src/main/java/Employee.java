@@ -1,6 +1,8 @@
 public class Employee {
 
-    public void getFirstName() {
+    private String firstName;
 
+    public String getFirstName() {
+    return firstName;
     }
 }
