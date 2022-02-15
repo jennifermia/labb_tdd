@@ -32,6 +32,10 @@ public class EmployeeTest {
     @Test
     public void test_Employee_NameAgeSalary_Constructor(){
         testObject = new Employee("Jenny", "Mitteli", 28, 30000);
+        assertEquals("Jennifer", testObject.getFirstName());
+        assertEquals("Toivanen", testObject.getLastName());
+        assertEquals(26, testObject.getAge());
+        assertEquals(30000, testObject.getSalary());
     }
 
     @Test
