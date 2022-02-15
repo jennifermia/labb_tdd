@@ -39,6 +39,13 @@ public class EmployeeTest {
     }
 
     @Test
+    public void test_Employee_Id_Constructor(){
+        testObject = new Employee();
+        testObject.getEmployeeID();
+
+    }
+
+    @Test
     public void test_Employee_GetFirstName(){
         testObject = new Employee();
        String actual = testObject.getFirstName();
