@@ -7,6 +7,7 @@ public class Employee {
     }
 
 
-    public String setFirstName() {
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 }
