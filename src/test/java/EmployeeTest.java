@@ -25,7 +25,8 @@ public class EmployeeTest {
 
     @Test public void test_Employee_SetLastName(){
         testObject = new Employee();
-        testObject.setLastName();
+        testObject.setLastName("Toivanen");
+        String actual = testObject.getLastName();
 
     }
 

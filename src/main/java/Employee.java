@@ -1,6 +1,7 @@
 public class Employee {
 
     private String firstName;
+    private String lastName;
 
     public String getFirstName() {
     return firstName;
@@ -11,6 +12,7 @@ public class Employee {
         this.firstName = firstName;
     }
 
-    public void setLastName() {
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
