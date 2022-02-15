@@ -21,9 +21,6 @@ public class EmployeeTest {
         String actual = testObject.getFirstName();
         String expected = "Jennifer";
         assertEquals(expected, actual);
-
-
-
     }
 
 
