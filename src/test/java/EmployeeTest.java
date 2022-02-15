@@ -30,6 +30,11 @@ public class EmployeeTest {
     }
 
     @Test
+    public void test_Employee_NameAgeSalary_Constructor(){
+        testObject = new Employee("Jenny", "Mitteli", 28, 30000)
+    }
+
+    @Test
     public void test_Employee_GetFirstName(){
         testObject = new Employee();
        String actual = testObject.getFirstName();
