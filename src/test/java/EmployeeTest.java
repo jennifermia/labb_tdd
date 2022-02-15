@@ -8,7 +8,7 @@ public class EmployeeTest {
 
 
     @Test
-    public void test_Employee_Constructor(){
+    public void test_Employee_Name_Constructor(){
         String firstName = "Jennifer";
         String lastName = "Toivanen";
         int age = 26;
