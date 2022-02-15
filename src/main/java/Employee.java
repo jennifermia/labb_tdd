@@ -19,6 +19,8 @@ public class Employee {
         this.age = age;
     }
 
+    public Employee(String jenny, String mitteli, int i, int i1) {
+    }
 
 
     public String getFirstName() {
