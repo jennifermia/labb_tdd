@@ -51,7 +51,7 @@ public class EmployeeSystemTest {
     }
 
     @Test
-    public void test_Increase_OneSalary() {
+    public void test_Increase_SpecificSalary() {
         testObject.addEmployee(tjomme1);
         testObject.increaseSpecificSalary();
     }
