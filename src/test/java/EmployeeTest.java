@@ -71,7 +71,13 @@ public class EmployeeTest {
         int actual = testObject.getAge();
         int expected = 26;
         assertEquals(expected,actual);
+    }
 
+    @Test
+    public void test_Employee_GetSalary(){
+        testObject = new Employee();  //skapar en constr. utan arg.
+        double actual = testObject.getSalary();
+        assertEquals(0, actual);
     }
 
 
