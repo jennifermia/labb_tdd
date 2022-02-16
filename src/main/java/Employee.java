@@ -50,7 +50,7 @@ public class Employee {
         return salary;
     }
 
-    public void setSalary(){
+    public void setSalary(double salary){
 
     }
 
