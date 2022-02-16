@@ -60,7 +60,7 @@ public class EmployeeTest {
     @Test
     public void test_Employee_GetAge(){
         testObject = new Employee();
-        String actual = testObject.getAge();
+        int actual = testObject.getAge();
     }
 
 
