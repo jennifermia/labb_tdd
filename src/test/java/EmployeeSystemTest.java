@@ -27,8 +27,8 @@ public class EmployeeSystemTest {
         tjomme = new Employee();
         testObject.addEmployee(tjomme);
         testObject.removeEmployee(tjomme);
-
-
+        ArrayList<Employee> employeeList = testObject.getEmployeeList();
+        assertTrue(employeeList.size() == 0);
     }
 
 }
