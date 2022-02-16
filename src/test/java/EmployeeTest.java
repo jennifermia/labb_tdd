@@ -80,6 +80,12 @@ public class EmployeeTest {
         assertEquals(0, actual);
     }
 
+    @Test
+    public void test_Employee_SetSalary(){
+        testObject = new Employee();
+        testObject.setSalary();
+    }
+
 
 
 
