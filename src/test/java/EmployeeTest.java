@@ -17,12 +17,6 @@ public class EmployeeTest {
         assertEquals(30000, testObject.getSalary());
     }
 
-    @Test
-    public void test_Id_Employee_Constructor(){
-        testObject = new Employee("exempel","exempel",20,20000);
-        int actual = testObject.getEmployeeID();
-        assertEquals(1, actual);
-    }
 
 
     @Test
@@ -88,6 +82,15 @@ public class EmployeeTest {
         double expected = 27000;
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void test_Id_Employee_Constructor(){
+        testObject = new Employee("exempel","exempel",20,20000);
+        int actual = testObject.getEmployeeID();
+        assertEquals(1, actual);
+    }
+
+
 
 
 
