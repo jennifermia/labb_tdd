@@ -84,6 +84,9 @@ public class EmployeeTest {
     public void test_Employee_SetSalary(){
         testObject = new Employee();
         testObject.setSalary(27000);
+        double actual = testObject.getSalary();
+        double expected = 27000;
+        assertEquals(expected, actual);
     }
 
 
