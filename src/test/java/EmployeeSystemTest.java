@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+
 public class EmployeeSystemTest {
 
     EmployeeSystem testObject;
@@ -15,6 +17,7 @@ public class EmployeeSystemTest {
     public void test_AddEmployee(){
         tjomme = new Employee();
         testObject.addEmployee(tjomme);
+        ArrayList<Employee> employeeList = testObject.getEmployeeList();
 
 
     }
