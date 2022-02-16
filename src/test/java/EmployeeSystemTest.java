@@ -26,6 +26,7 @@ public class EmployeeSystemTest {
     public void test_RemoveEmployee(){
         tjomme = new Employee();
         testObject.removeEmployee();
+
     }
 
 }

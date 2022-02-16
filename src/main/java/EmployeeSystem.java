@@ -14,4 +14,6 @@ public class EmployeeSystem {
     }
 
 
+    public void removeEmployee() {
+    }
 }
