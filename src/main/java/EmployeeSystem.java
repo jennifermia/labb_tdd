@@ -17,4 +17,7 @@ public class EmployeeSystem {
     public void removeEmployee(Employee tjomme) {
         EmployeeList.remove(tjomme);
     }
+
+    public void increaseAllSalaries() {
+    }
 }
