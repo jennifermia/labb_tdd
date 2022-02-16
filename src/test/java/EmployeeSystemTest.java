@@ -55,7 +55,8 @@ public class EmployeeSystemTest {
 
     @Test
     public void test_IncreaseAllSalaries(){
-    testObject.increaseAllSalaries();
+    testObject.increaseAllSalaries(0.2);
+
 
 
     }

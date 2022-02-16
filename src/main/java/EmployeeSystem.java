@@ -19,5 +19,6 @@ public class EmployeeSystem {
     }
 
     public void increaseAllSalaries() {
+
     }
 }
