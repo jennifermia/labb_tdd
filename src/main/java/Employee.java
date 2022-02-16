@@ -46,6 +46,10 @@ public class Employee {
         return salary;
     }
 
+    public void setSalary(){
+
+    }
+
     public int getEmployeeID() {
         return id;
     }
@@ -55,7 +59,5 @@ public class Employee {
         this.age = age;
     }
 
-    public void setSalary(){
 
-    }
 }
