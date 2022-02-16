@@ -4,7 +4,8 @@ public class EmployeeSystemTest {
 
     @Test
     public void test_AddEmployee(){
-        EmployeeSystem testObject = new EmplyeeSystem();
+        EmployeeSystem testObject = new EmployeeSystem();
+
     }
 
 }
