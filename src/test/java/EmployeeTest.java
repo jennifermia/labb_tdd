@@ -83,7 +83,7 @@ public class EmployeeTest {
     @Test
     public void test_Employee_SetSalary(){
         testObject = new Employee();
-        testObject.setSalary();
+        testObject.setSalary(27000);
     }
 
 
