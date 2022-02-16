@@ -29,8 +29,10 @@ public class EmployeeSystem {
 
     }
 
-    public void increaseOneSalary() {
+    public void increaseSpecificSalary() {
+
     }
+
 
 
 }
