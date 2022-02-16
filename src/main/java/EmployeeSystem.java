@@ -14,6 +14,6 @@ public class EmployeeSystem {
     }
 
 
-    public void removeEmployee() {
+    public void removeEmployee(Employee tjomme) {
     }
 }
