@@ -29,7 +29,7 @@ public class EmployeeSystem {
 
     }
 
-    public void increaseSpecificSalary() {
+    public void increaseSpecificSalary(double inc) {
 
     }
 
