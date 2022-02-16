@@ -18,7 +18,7 @@ public class EmployeeSystem {
         EmployeeList.remove(tjomme);
     }
 
-    public void increaseAllSalaries() {
+    public void increaseAllSalaries(double inc) {
 
     }
 }
