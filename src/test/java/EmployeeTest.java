@@ -84,11 +84,14 @@ public class EmployeeTest {
     }
 
     @Test
-    public void test_Id_Employee_Constructor(){
+    public void test_Id_Employee_GetEmployeeID(){
         testObject = new Employee("exempel","exempel",20,20000);
         int actual = testObject.getEmployeeID();
         assertEquals(1, actual);
     }
+
+
+
 
 
 
