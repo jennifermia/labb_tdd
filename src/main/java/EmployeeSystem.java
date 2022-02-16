@@ -28,4 +28,9 @@ public class EmployeeSystem {
         }
 
     }
+
+    public void increaseOneSalary() {
+    }
+
+
 }
