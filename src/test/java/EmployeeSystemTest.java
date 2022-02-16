@@ -1,3 +1,4 @@
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +19,7 @@ public class EmployeeSystemTest {
         tjomme = new Employee();
         testObject.addEmployee(tjomme);
         ArrayList<Employee> employeeList = testObject.getEmployeeList();
-
+        assertTrue(employeeList.size() != 0);
 
     }
 
