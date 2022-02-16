@@ -53,6 +53,7 @@ public class Employee {
         return salary;
     }
 
-    public void getEmployeeID() {
+    public int getEmployeeID() {
+        return 0;
     }
 }

@@ -41,7 +41,7 @@ public class EmployeeTest {
     @Test
     public void test_Employee_Id_Constructor(){
         testObject = new Employee();
-        testObject.getEmployeeID();
+        int actual = testObject.getEmployeeID();
 
     }
 
