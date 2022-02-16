@@ -4,14 +4,19 @@ public class Employee {
     private String lastName;
     private int age;
     private double salary;
+    private static int uid = 0;
+    private int id;
 
     public Employee() {
-
+        uid++;
+        this.id = uid;
     }
 
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+        uid++;
+        this.id = uid;
     }
 
     public Employee(String firstName, String lastName, int age) {
@@ -54,6 +59,6 @@ public class Employee {
     }
 
     public int getEmployeeID() {
-        return 0;
+        return id;
     }
 }

@@ -42,6 +42,7 @@ public class EmployeeTest {
     public void test_Employee_Id_Constructor(){
         testObject = new Employee();
         int actual = testObject.getEmployeeID();
+        assertEquals(1, actual);
 
     }
 
