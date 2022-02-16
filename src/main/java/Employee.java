@@ -42,6 +42,10 @@ public class Employee {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public double getSalary() {
         return salary;
     }
@@ -55,9 +59,7 @@ public class Employee {
     }
 
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+
 
 
 }
