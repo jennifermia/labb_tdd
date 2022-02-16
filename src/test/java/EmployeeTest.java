@@ -44,13 +44,12 @@ public class EmployeeTest {
     }
 
     @Test
-    public void test_Employee_SetAndGetLastName(){
+    public void test_Employee_SetLastName(){
         testObject = new Employee();
         testObject.setLastName("Toivanen");
         String actual = testObject.getLastName();
         String expected = "Toivanen";
         assertEquals(expected, actual);
-
     }
 
 
