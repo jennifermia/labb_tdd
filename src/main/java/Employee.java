@@ -4,39 +4,28 @@ public class Employee {
     private String lastName;
     private int age;
     private double salary;
-    private static int uid = 0;
+    private static int counter;
     private int id;
 
-    public Employee() {
-        uid++;
-        this.id = uid;
+
+    public Employee(){
+
     }
 
-    public Employee(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        uid++;
-        this.id = uid;
-    }
-
-    public Employee(String firstName, String lastName, int age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
 
     public Employee(String firstName, String lastName, int age, double salary) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.salary = salary;
+        counter++;
+        id = counter;
     }
 
 
     public String getFirstName() {
     return firstName;
     }
-
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -60,5 +49,9 @@ public class Employee {
 
     public int getEmployeeID() {
         return id;
+    }
+
+    public int compareAge(int i) {
+        return i;
     }
 }

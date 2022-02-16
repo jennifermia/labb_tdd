@@ -6,31 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EmployeeTest {
     Employee testObject;
 
-    @Test
-    public void test_Employee_NoArg_Constructor(){
-        testObject = new Employee();
-    }
+
 
     @Test
-    public void test_Employee_Name_Constructor(){
-        String firstName = "Jennifer";
-        String lastName = "Toivanen";
-        testObject = new Employee(firstName, lastName);
-    }
-
-    @Test
-    public void test_Employee_NameAndAge_Constructor(){
-        String firstName = "Jennifer";
-        String lastName = "Toivanen";
-        int age = 26;
-        testObject = new Employee(firstName, lastName, age);
-        assertEquals("Jennifer", testObject.getFirstName());
-        assertEquals("Toivanen", testObject.getLastName());
-        assertEquals(26, testObject.getAge());
-    }
-
-    @Test
-    public void test_Employee_NameAgeSalary_Constructor(){
+    public void test_Employee_Constructor(){
         testObject = new Employee("Jenny", "Mitteli", 28, 30000);
         assertEquals("Jenny", testObject.getFirstName());
         assertEquals("Mitteli", testObject.getLastName());
@@ -39,18 +18,26 @@ public class EmployeeTest {
     }
 
     @Test
-    public void test_Employee_Id_Constructor(){
-        testObject = new Employee();
+    public void test_Id_Employee_Constructor(){
+        testObject = new Employee("exempel","exempel",20,20000);
         int actual = testObject.getEmployeeID();
         assertEquals(1, actual);
-
     }
+
 
     @Test
     public void test_Employee_GetFirstName(){
         testObject = new Employee();
        String actual = testObject.getFirstName();
        assertNull(actual);
+    }
+
+    @Test
+    public void compareAge(){
+        int diff =18;
+        int actual = testObject.compareAge(17);
+
+
     }
 
     @Test
