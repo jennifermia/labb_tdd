@@ -61,8 +61,14 @@ public class EmployeeTest {
     public void test_Employee_GetAge(){
         testObject = new Employee();
         int actual = testObject.getAge();
+        assertEquals(0, actual);
     }
 
+    @Test
+    public void test_Employee_SetAge(){
+        testObject = new Employee();
+        testObject.setAge();
+    }
 
 
 
