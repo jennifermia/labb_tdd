@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class EmployeeSystem {
 
-    ArrayList<Employee> EmployeeList = new ArrayList<Employee>();
+    ArrayList<Employee> EmployeeList = new ArrayList<>();
 
     public void addEmployee(Employee tjomme) {
     EmployeeList.add(tjomme);
@@ -15,5 +15,6 @@ public class EmployeeSystem {
 
 
     public void removeEmployee(Employee tjomme) {
+        EmployeeList.remove(tjomme);
     }
 }

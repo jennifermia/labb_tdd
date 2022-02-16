@@ -27,8 +27,22 @@ public class EmployeeSystemTest {
         tjomme = new Employee();
         testObject.addEmployee(tjomme);
         testObject.removeEmployee(tjomme);
-        ArrayList<Employee> employeeList = testObject.getEmployeeList();
-        assertTrue(employeeList.size() == 0);
+        ArrayList<Employee> actualList = testObject.getEmployeeList();
+        assertEquals(0,actualList.size());
+        //assertTrue(actualList.size() == 0);
     }
+
+    @Test
+    public void test_SpecificEmployeeInList(){
+        tjomme = new Employee("exempel","exempel",2,22222);
+        testObject.addEmployee(tjomme);
+        tjomme = new Employee("exempel","exempel",20,22222);
+        testObject.addEmployee(tjomme);
+        ArrayList<Employee> EmployeeList = testObject.getEmployeeList();
+        EmployeeList.forEach(employee -> System.out.println(employee.getAge()));
+        assertEquals("exempel", EmployeeList.get(0).getFirstName());
+
+    }
+
 
 }
