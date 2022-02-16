@@ -32,13 +32,7 @@ public class EmployeeTest {
        assertNull(actual);
     }
 
-    @Test
-    public void compareAge(){
-        int diff =18;
-        int actual = testObject.compareAge(17);
 
-
-    }
 
     @Test
     public void test_Employee_SetFirstName(){
