@@ -52,7 +52,8 @@ public class EmployeeSystemTest {
 
     @Test
     public void test_Increase_OneSalary() {
-
+        testObject.addEmployee(tjomme1);
+        testObject.increaseOneSalary();
     }
 
     @Test
@@ -68,6 +69,16 @@ public class EmployeeSystemTest {
         assertEquals(expectedNewSal1, actualList.get(2).getSalary());
         assertEquals(expectedNewSal2, actualList.get(1).getSalary());
         assertEquals(expectedNewSal3, actualList.get(0).getSalary());
+    }
+
+    @Test
+    public void test_IncreaseAllSalaries_NegArg(){
+
+    }
+
+    @Test
+    public void test_IncreaseAllSalaries_TooHighArg(){
+
     }
 
 
