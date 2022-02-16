@@ -67,7 +67,7 @@ public class EmployeeTest {
     @Test
     public void test_Employee_SetAge(){
         testObject = new Employee();
-        testObject.setAge(25);
+        testObject.setAge(26);
 
     }
 
