@@ -25,7 +25,9 @@ public class EmployeeSystemTest {
     @Test
     public void test_RemoveEmployee(){
         tjomme = new Employee();
+        testObject.addEmployee(tjomme);
         testObject.removeEmployee();
+
 
     }
 
