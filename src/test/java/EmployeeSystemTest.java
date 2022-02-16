@@ -54,6 +54,9 @@ public class EmployeeSystemTest {
     public void test_Increase_SpecificSalary() {
         testObject.addEmployee(tjomme1);
         testObject.increaseSpecificSalary(1.05);
+        double expectedNewSal = tjomme1.getSalary()*1.05;
+        ArrayList<Employee> actualList = testObject.getEmployeeList();
+        assertEquals(expectedNewSal, actualList.get(0).getSalary());
     }
 
     @Test
