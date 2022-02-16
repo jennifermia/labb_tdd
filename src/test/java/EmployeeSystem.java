@@ -1,6 +1,6 @@
 public class EmployeeSystem {
 
-    public void addEmployee() {
+    public void addEmployee(Employee tjomme) {
 
     }
 }
