@@ -53,10 +53,11 @@ public class EmployeeSystemTest {
     @Test
     public void test_Increase_SpecificSalary() {
         testObject.addEmployee(tjomme1);
-        testObject.increaseSpecificSalary(1.05);
         double expectedNewSal = tjomme1.getSalary()*1.05;
+        testObject.increaseSpecificSalary(1.05, tjomme1.getEmployeeID());
         ArrayList<Employee> actualList = testObject.getEmployeeList();
-        assertEquals(expectedNewSal, actualList.get(0).getSalary());
+
+        assertEquals(expectedNewSal, actualList.get(actualList.size()-1).getSalary());
     }
 
     @Test

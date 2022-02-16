@@ -29,10 +29,19 @@ public class EmployeeSystem {
 
     }
 
-    public void increaseSpecificSalary(double inc) {
+    public void increaseSpecificSalary(double inc, int id) {
 
+        if (inc > 1 && inc < 2) {
+            for (Employee e : EmployeeList) {
+                if (e.getEmployeeID() == id) {
+                    double incSal = e.getSalary() * inc;
+                    e.setSalary(incSal);
+                }
+
+            }
+
+        }
     }
-
 
 
 }
