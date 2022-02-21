@@ -53,11 +53,11 @@ public class EmployeeSystemTest {
     @Test
     public void test_Increase_SpecificSalary() {
         testObject.addEmployee(tjomme1);
-        double expectedNewSal = tjomme1.getSalary()*1.05;
+        double expectedNewSal = tjomme1.getSalary() * 1.05;
         testObject.increaseSpecificSalary(1.05, tjomme1.getEmployeeID());
         ArrayList<Employee> actualList = testObject.getEmployeeList();
 
-        assertEquals(expectedNewSal, actualList.get(actualList.size()-1).getSalary());
+        assertEquals(expectedNewSal, actualList.get(actualList.size() - 1).getSalary());
     }
 
     @Test
@@ -65,9 +65,9 @@ public class EmployeeSystemTest {
         testObject.addEmployee(tjomme1);
         testObject.addEmployee(tjomme2);
         testObject.addEmployee(tjomme3);
-        double expectedNewSal1 = tjomme3.getSalary()*1.2;
-        double expectedNewSal2 = tjomme2.getSalary()*1.2;
-        double expectedNewSal3 = tjomme1.getSalary()*1.2;
+        double expectedNewSal1 = tjomme3.getSalary() * 1.2;
+        double expectedNewSal2 = tjomme2.getSalary() * 1.2;
+        double expectedNewSal3 = tjomme1.getSalary() * 1.2;
         testObject.increaseAllSalaries(1.2);
         ArrayList<Employee> actualList = testObject.getEmployeeList();
         assertEquals(expectedNewSal1, actualList.get(2).getSalary());
@@ -76,15 +76,14 @@ public class EmployeeSystemTest {
     }
 
     @Test
-    public void test_IncreaseAllSalaries_NegArg(){
+    public void test_IncreaseAllSalaries_NegArg() {
 
     }
 
     @Test
-    public void test_IncreaseAllSalaries_TooHighArg(){
+    public void test_IncreaseAllSalaries_TooHighArg() {
 
     }
-
 
 
 }

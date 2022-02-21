@@ -8,7 +8,7 @@ public class Employee {
     private int id;
 
 
-    public Employee(){
+    public Employee() {
 
     }
 
@@ -23,7 +23,7 @@ public class Employee {
 
 
     public String getFirstName() {
-    return firstName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
@@ -50,16 +50,13 @@ public class Employee {
         return salary;
     }
 
-    public void setSalary(double salary){
-    this.salary = salary;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public int getEmployeeID() {
         return id;
     }
-
-
-
 
 
 }
